@@ -19,6 +19,8 @@
             wage.salary();
             UC3 part = new UC3();
             part.partTime();
+            UC4 swich = new UC4();
+            swich.switchCase();
 
         }
     }
