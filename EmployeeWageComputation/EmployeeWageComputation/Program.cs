@@ -1,6 +1,4 @@
-﻿
-Console.WriteLine("Welcome to Employee Wage Computation Program!")
-namespace EmployeeWageComputation
+﻿namespace EmployeeWageComputation
 {
     class Program
     {
@@ -17,6 +15,10 @@ namespace EmployeeWageComputation
             {
                 Console.WriteLine("Employee is Absent");
             }
+            UC2 wage = new UC2();
+            wage.salary();
+            UC3 part = new UC3();
+            part.partTime();
 
         }
     }
