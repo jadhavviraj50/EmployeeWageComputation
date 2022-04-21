@@ -9,7 +9,7 @@ namespace EmployeeWageComputation
     {
         public void partTime()
         {
-
+           
             int empwageperhrs = 20;
             int emphrs;
             Random CheckempAttandance = new Random();

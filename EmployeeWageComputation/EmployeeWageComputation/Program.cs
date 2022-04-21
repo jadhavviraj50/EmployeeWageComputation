@@ -21,6 +21,8 @@
             part.partTime();
             UC4 swich = new UC4();
             swich.switchCase();
+            UC5 mont = new UC5();
+            mont.month();
 
         }
     }

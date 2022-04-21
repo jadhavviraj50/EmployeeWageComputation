@@ -9,6 +9,7 @@ namespace EmployeeWageComputation
     {
         public void salary()
         {
+         
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;
             int empHrs = 0;
