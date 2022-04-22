@@ -23,7 +23,8 @@
             swich.switchCase();
             UC5 mont = new UC5();
             mont.month();
-
+            UC6 employee = new UC6();
+            employee.emp();
         }
     }
 }
