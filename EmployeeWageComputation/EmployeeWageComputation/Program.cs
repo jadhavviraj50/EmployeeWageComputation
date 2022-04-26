@@ -25,6 +25,8 @@
             mont.month();
             UC6 employee = new UC6();
             employee.emp();
+            UC7 emp = new UC7();
+            emp.computeEmpWage();
         }
     }
 }

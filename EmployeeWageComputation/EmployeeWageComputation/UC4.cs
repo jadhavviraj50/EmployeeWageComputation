@@ -47,12 +47,10 @@ namespace EmployeeWageComputation
                     break;
                 case 2:
                     Console.WriteLine("Employee is present!");
-                    Console.WriteLine("Employee is Full Time");
+                    Console.WriteLine("Employee is Part Time");
                     emphrs = 4;
                     break;
-                case 0:
-                    Console.WriteLine("Employee is present!");
-                    Console.WriteLine("Employee is Full Time");
+                default:
                     emphrs = 0;
                     break;
 
