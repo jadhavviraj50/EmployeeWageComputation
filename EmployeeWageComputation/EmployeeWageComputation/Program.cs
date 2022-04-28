@@ -27,6 +27,8 @@
             employee.emp();
             UC7 emp = new UC7();
             emp.computeEmpWage();
+            UC8 company = new UC8();
+            company.multipleCompany();
         }
     }
 }
