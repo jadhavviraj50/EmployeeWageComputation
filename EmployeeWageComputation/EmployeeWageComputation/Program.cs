@@ -29,6 +29,15 @@
             emp.computeEmpWage();
             UC8 company = new UC8();
             company.multipleCompany();
+
+            EmpWageBuilder dmart = new EmpWageBuilder("DMart", 20, 2, 10);
+            EmpWageBuilder Reliance = new EmpWageBuilder("Reliance", 10, 4, 20);
+            dmart.computeEmpWage();
+            Console.WriteLine(dmart.toString());
+            Reliance.computeEmpWage();
+            Console.WriteLine(Reliance.toString());
+
+            
         }
     }
 }
